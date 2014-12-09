@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light"/>
+
+    <style name="SettingsTextview">
+        <item name="android:textColor">@android:color/background_dark</item>
+    </style>
+
+    <style name="SettingsTextview.header" parent="SettingsTextview">
+        <item name="android:textSize">@dimen/settings_header_text_size</item>
+    </style>
+
+    <style name="SettingsTextview.body" parent="SettingsTextview">
+        <item name="android:textSize">@dimen/settings_body_text_size</item>
+    </style>
+
+
+</resources>

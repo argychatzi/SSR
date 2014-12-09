@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/georgios.savvidis/Documents/Development/workspace-thesis/SSR/SeamlessSpeakerRecognition/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-c2b1f949c39ffab9989168045fe5ffb4dd27ebe6.jar"
+        jar="/Applications/Development/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/georgios.savvidis/Documents/Development/workspace-thesis/SSR/SeamlessSpeakerRecognition/app/build/intermediates/pre-dexed/debug/junit-4.11-c43afdd30312340fdf3efe4168e490659bc6dca3.jar"
+        jar="/Users/georgios.savvidis/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4e031bb61df09069aeb2bffb4019e7a5034a4ee0"/>
+    <item
+        dex="/Users/georgios.savvidis/Documents/Development/workspace-thesis/SSR/SeamlessSpeakerRecognition/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-b55994b91651f9fef6670401548d5225bca96fa3.jar"
+        jar="/Users/georgios.savvidis/Documents/Development/workspace-thesis/SSR/SeamlessSpeakerRecognition/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Users/georgios.savvidis/Documents/Development/workspace-thesis/SSR/SeamlessSpeakerRecognition/app/build/intermediates/pre-dexed/debug/classes-17c2cabd8d0eaa3523023f6715b831d0bda34063.jar"
+        jar="/Users/georgios.savvidis/Documents/Development/workspace-thesis/SSR/SeamlessSpeakerRecognition/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/Users/georgios.savvidis/Documents/Development/workspace-thesis/SSR/SeamlessSpeakerRecognition/app/build/intermediates/pre-dexed/debug/hamcrest-core-1.3-3a77a6772dddf602d94ca15a8a9453c77295d0cc.jar"
+        jar="/Users/georgios.savvidis/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0"/>
+    <item
+        dex="/Users/georgios.savvidis/Documents/Development/workspace-thesis/SSR/SeamlessSpeakerRecognition/app/build/intermediates/pre-dexed/clientServer/debug/recognitohelper-ce9dc214f7eaa27a8028bba5254535965b348655.jar"
+        jar="/Users/georgios.savvidis/Documents/Development/workspace-thesis/SSR/SeamlessSpeakerRecognition/app/libs/recognitohelper.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="12996c827b33d102a828ffc9d73840bea295cd67"/>
+
+</pre-dex-items>

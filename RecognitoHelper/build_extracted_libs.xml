@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project RecognitoHelper">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="./output/recognitohelper.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="com.kth.recognitohelper.test.TestMain"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <zipfileset excludes="META-INF/*.SF" src="./libs/recognito.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="./libs/ormlite-core-4.48.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="./libs/sqlite-jdbc-3.8.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="./libs/ormlite-android-4.48.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="./libs/ormlite-jdbc-4.48.jar"/>
+            <fileset dir="./bin/classes"/>
+        </jar>
+		<copy file="./output/recognitohelper.jar" todir="../SsrServer/libs/"/>
+		<copy file="./output/recognitohelper.jar" todir="../SeamlessSpeakerRecognition/app/libs/"/>
+	</target>
+</project>

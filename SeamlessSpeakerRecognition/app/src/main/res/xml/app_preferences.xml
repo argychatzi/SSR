@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/app_pref_collection">
+        <com.kth.ssr.views.TimePreference
+            android:title="@string/app_pref_morning_start"
+            android:summary="@string/app_pref_morning_start_summary"
+            android:key="@string/sharedPreferencesStartTime" />
+        <com.kth.ssr.views.TimePreference
+            android:title="@string/app_pref_morning_stop"
+            android:summary="@string/app_pref_morning_stop_summary"
+            android:key="@string/sharedPreferencesStopTime" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/app_pref_battery">
+        <ListPreference
+
+            android:entries="@array/micOpeningFrequency"
+            android:entryValues="@array/micOpeningFrequencyValues"
+            android:title="@string/app_pref_hourly_frequency_collection"
+            android:summary="@string/app_pref_hourly_frequency_collection_summary"
+            android:key="@string/sharedPreferencesMicOpeningFrequency" />
+        <com.kth.ssr.views.SeekBarPreference
+            android:text= "%"
+            android:title="@string/app_pref_battery_threshold"
+            android:summary="@string/app_pref_battery_threshold_summary"
+            android:key="@string/sharedPreferencesBatteryThreshold" />
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory android:title="@string/app_pref_general">
+        <com.kth.ssr.views.SeekBarPreference
+            android:title="@string/app_pref_activity_detection_duration"
+            android:text= "ms"
+            android:defaultValue="50"
+            android:summary="@string/app_pref_activity_detection_duration_summary"
+            android:key="@string/sharedPreferencesVoiceActivityDetectionDuration" />
+    </PreferenceCategory>
+    -->
+</PreferenceScreen>

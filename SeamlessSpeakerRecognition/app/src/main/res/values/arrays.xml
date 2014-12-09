@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="micOpeningFrequency">
+        <item name="5">Every 5 min</item>
+        <item name="10">Every 10 min</item>
+        <item name="20">Every 20 min</item>
+        <item name="60">Every 60 min</item>
+    </string-array>
+    <string-array name="micOpeningFrequencyValues">
+        <item name="5">30000</item>
+        <item name="10">60000</item>
+        <item name="20">120000</item>
+        <item name="60">240000</item>
+    </string-array>
+
+</resources>

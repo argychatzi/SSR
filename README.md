@@ -1,1 +1,1 @@
-This repo contains the source code for the Thesis of A. Chatzaras and G. Savvidis.
+This repo contains the source code for the Thesis of A. Chatzaras and G. Savvidis, conducted at KTH, all rights reserved.
